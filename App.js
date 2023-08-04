@@ -8,8 +8,8 @@ import City from "./src/screens/City";
 const App = () => {
   return (
     <View style={styles.container}>
-      <CurrentWeather />
-  
+      <City />
+
     </View>
   )
 }

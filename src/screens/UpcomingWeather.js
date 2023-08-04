@@ -57,7 +57,7 @@ const UpcomingWeather = () => {
       max={item.main.temp_max}
     />
   );
-  const {container, image} = styles
+  const { container, image } = styles;
   return (
     <SafeAreaView style={container}>
       <ImageBackground
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginTop: StatusBar.currentHeight || 0,
-        backgroundColor: "cadetblue",
+    backgroundColor: "cadetblue",
   },
   image: {
     flex: 1,
