@@ -16,8 +16,7 @@ const App = () => {
         <Tab.Screen name={'City'} component={City} />
       </Tab.Navigator>
     </NavigationContainer>
-  )
-}
-
+  );
+};
 
 export default App;
